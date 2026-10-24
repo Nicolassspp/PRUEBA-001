@@ -1,0 +1,88 @@
+.promo-section{
+    background-color: rgb(7, 7, 7);
+    padding: 80px ;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.content-wrapper{
+    max-width: 900px;
+}
+.subtitle{
+    color: gold;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 20px;    
+}
+h1{
+    color: rgb(255, 254, 254);
+}
+p{
+    color: rgb(255, 255, 255);
+}
+.contenedor{
+    color: gold;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 20px;
+  
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6e6e6;
+    color: black;
+    margin: 20;
+}
+.articulo {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+}
+.articulo h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.articulo h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.articulo p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+}
+.contenedor {
+    background-color: rgb(2, 2, 2);
+    color: rgb(240, 233, 233);
+    padding: 16px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.preguntas {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+.preguntas h4 {
+    font-size: 20px;
+    color: black;
+    padding-bottom: 10px;
+}
+.preguntas p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.preguntas .pregunta {
+    font-weight: bold;
+    color: black;
+    margin-top: 25px;
+}
+.title2{
+    font-size: 30px;
+    font-weight: bold;    
+    
+}
