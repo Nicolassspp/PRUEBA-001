@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="CSS/ESTILO-FORMULARIO.css">
+    <title>FORMULARIO</title>
+</head>
+<body>
+    <div class="container">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="cd53c601-377b-4520-b669-51ff1e293b2d">
+
+            <h2><i class="fa-solid fa-envelope"></i>Contactanos</h2>
+            <P class="subtitle">¿Preguntas, inquietudes, comentarios?
+                                Tu hablas, nosotros te escuchamos
+                                Si tienes alguna pregunta o comentario adicional
+                                ¡nos encantaría saberlo!
+            </P>
+        <div class="input-group">
+            <label for="name"><i class="fa-solid fa-user"></i>Nombre</label>
+            <input type="text" name="name" id="name" placeholder="Ingresa tus nombres" required>
+
+            <label for="iphone"><i class="fa-solid fa-iphone"></i>Telefono</label>
+            <input type="tel" name="iphone" id="iphone" placeholder="Ingresa tu numero">
+
+            <label for="email"><i class="fa-solid fa-at"></i>Email</label>
+            <input type="email" name="email" id="email" placeholder="Ingresa tu email">
+
+           <label for="message"><i class="fa-solid fa-comment-dots"></i>Mensaje</label>
+                <textarea name="message" id="message" rows="4" 
+                placeholder="¡Contactanos!"></textarea>
+                <div class="form-links">
+                <center>
+                        <a href="#">libro de reclamaciones</a>
+                </center>
+             
+            </div>
+            <button type="submit" class="btn">
+                <span>Enviar</span>
+            </button>  
+        </div>
+        </form>
+    </div>
+</body>
+</html>
